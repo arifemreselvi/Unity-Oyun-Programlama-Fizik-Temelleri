@@ -20,7 +20,6 @@ Bu proje, Unity oyun motoru kullanılarak fiziğin dört temel kavramını (Uzay
 ```csharp
 void OnCollisionEnter(Collision collision) {
     if (collision.gameObject.CompareTag("delik")) {
-        // Hedef top deliğe girince yok edilir
         Destroy(gameObject);
     }
 }
