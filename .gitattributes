@@ -1,7 +1,2 @@
-*.cs linguist-language=C#
-*.htm linguist-detectable=false
-*.html linguist-detectable=false
-*.js linguist-detectable=false
-*.wl linguist-detectable=false
-*.wls linguist-detectable=false
-*.nb linguist-detectable=false   
+* linguist-detectable=false
+*.cs linguist-detectable=true
